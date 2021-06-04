@@ -119,9 +119,11 @@
 
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <a class="dropdown-item" href="edit-user.php"
-                                    <?php if (isNotLoggedIn()){ echo 'style="display:none;"'; } ?>>Sửa thông tin</a>
+                                    <?php if (isAdmin()){ echo 'style="display:none;"'; } ?>>Sửa thông tin</a>
                                 <a class="dropdown-item" href="changepw.php"
-                                    <?php if (isNotLoggedIn()){ echo 'style="display:none;"'; } ?>>Đổi mật khẩu</a>
+                                    <?php if (isAdmin()){ echo 'style="display:none;"'; } ?>>Đổi mật khẩu</a>
+                                <a class="dropdown-item" href="./admin/dashboard.php"
+                                    <?php if (!isAdmin()){ echo 'style="display:none;"'; } ?>>Trang quản lý</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="logout.php"
                                     <?php if (isNotLoggedIn()){ echo 'style="display:none;"'; } ?>>Đăng xuất</a>
