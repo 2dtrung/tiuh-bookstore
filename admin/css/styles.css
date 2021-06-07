@@ -516,7 +516,7 @@ a.bg-danger:hover {
 }
 
 .user-menu a {
-	color: #fff;
+	color: rgb(255, 255, 255);
 }
 
 .user-menu a:hover, .user-menu a:focus {
@@ -932,3 +932,4 @@ h1.page-header {
 #avatar{
     cursor: pointer;
 }
+

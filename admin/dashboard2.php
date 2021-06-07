@@ -26,12 +26,7 @@
     $countProduct=$c_product->getCountProducts();
 		$countUser = $c_user->getCountUser();
 
-
-
 ?>
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -58,19 +53,18 @@
 						</ul>
 					</li>
 				</ul>
-			</div>
-							
+			</div>							
 		</div><!-- /.container-fluid -->
 	</nav>
 		
 	<div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
-    <ul class="nav menu">
-        <li role="presentation" class="divider"></li>
-        <li class="active"><a href="dashboard.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Trang chủ</a></li>
-        <li ><a href="product.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Sản phẩm</a></li>
-        <li class=""><a href="user.php"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Người dùng  </a></li>
-        <li role="presentation" class="divider"></li>
-    </ul>
+		<ul class="nav menu">
+			<li role="presentation" class="divider"></li>
+			<li class="active"><a href="dashboard.php"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Trang chủ</a></li>
+			<li ><a href="product.php"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Sản phẩm</a></li>
+			<li class=""><a href="user.php"><svg class="glyph stroked line-graph"><use xlink:href="#stroked-line-graph"></use></svg> Người dùng  </a></li>
+			<li role="presentation" class="divider"></li>
+		</ul>
 		
 	</div><!--/.sidebar-->
 		
